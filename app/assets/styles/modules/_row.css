@@ -77,14 +77,6 @@
 
   }
 
-  &--equal-height-at-medium {
-    @mixin atMedium {
-      & > div {
-        display: flex;
-      }
-    }  
-  }
-
   &--equal-height-at-large {
     @mixin atLarge {
       & > div {

@@ -9,7 +9,7 @@ class Modal {
   events() {
     // listen for close click
     this.closeIcon.addEventListener('click', _ => this.closeTheModal())
-    
+
     // pushed any key
     document.addEventListener('keyup', e => this.keyPressHandler(e))
   }
